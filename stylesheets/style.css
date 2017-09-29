@@ -1,0 +1,115 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: lightgray;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 135px;
+  background: black;
+}
+
+header h1 {
+  color: gray;
+  margin-top: 15px;
+  cursor: pointer;
+  background: white;
+  padding: 5px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 84vh;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+}
+
+a {
+
+  text-decoration: none;
+  font-weight: 500;
+  color: gray;
+}
+
+li {
+  padding: 0px 20px 20px 0;
+}
+
+li:hover a{
+  color: white;
+}
+
+.resume {
+  position: fixed;
+  top: 0;
+  left: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: calc(100% - 135px);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.resume h1 {
+  text-align: center;
+  color: gray;
+  width: 100%;
+  margin: 3px;
+}
+
+.contact {
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+
+.eq {
+    margin: 5px;
+}
+
+.resume hr {
+  background: limegreen;
+  height: 1px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  display: inline-block;
+  height: 180px;
+  width: 120px;
+  border: 2px solid gray;
+}
